@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Meals </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 885px ) " href="css/phone.css">   <!--adding aedia quary to trigger phone screen mode-->
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="https://images.unsplash.com/photo-1518510227856-30619d542ea9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80" alt="logo.jpg">
+        </div>
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>                          <!-- internal linking -->
+            <li class="item"><a href="#services-container">Services</a></li>
+            <li class="item"><a href="#client-section">Our Clients</a></li>
+            <li class="item"><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="h-primary">Welcome To Online Meal</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam veniam, cumque debitis doloribus.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        <button class="btn">Order Now</button>
+    </section>
+    <section id="services-container">
+        <h1 class="h-primary center">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="https://images.unsplash.com/photo-1584365685547-9a5fb6f3a70c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="food ordering">
+                <h2 class="center h-secondary">Food Cattering</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum officiis dolorum qui ab molestias repellendus? Fugit quae atque alias nisi quod officia est fugiat incidunt ipsum voluptatum laboriosam, repellat vel! Cumque provident perferendis pariatur?</p>
+            </div>
+            <div class="box">
+                <img src="https://images.unsplash.com/photo-1512152272829-e3139592d56f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="food ordering">
+                <h2 class="center h-secondary">Bulk Ordering</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim vitae ea sit aspernatur, accusantium dignissimos eveniet facere omnis at quis. Molestiae temporibus itaque perferendis incidunt tempora esse magnam dolores, dolore odio natus, corrupti adipisci.</p>
+            </div>
+            <div class="box">
+                <img src="https://media.istockphoto.com/photos/delivery-man-riding-a-motorcycle-with-delivery-box-3d-rendering-picture-id1314333578?s=612x612" alt="food ordering">
+                <h2 class="center h-secondary">Food Delivery</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim vitae ea sit aspernatur, accusantium dignissimos eveniet facere omnis at quis. Molestiae temporibus itaque perferendis incidunt tempora esse magnam dolores, dolore odio natus, corrupti adipisci.</p>
+            </div>
+        </div>
+    </section>
+    <section id="client-section">
+        <h1 class="h-primary center">Our Clients</h1>
+        <div id="clients">
+            
+            <div class="client-item">
+                <img src="https://seeklogo.com/images/Z/zomato-logo-8AAA1690DE-seeklogo.com.png" alt="our client">
+            </div>
+            <div class="client-item">
+                <img src="http://www.pngimagesfree.com/LOGO/S/Swiggy/Swiggy-Logo-Vector.png" alt="our client">
+            </div>
+            <div class="client-item">
+                <img src="https://seeklogo.com/images/U/uber-eats-logo-CA3BA2098B-seeklogo.com.png" alt="our client">
+            </div>
+            <div class="client-item" >
+                <img src="https://seeklogo.com/images/F/foodpanda-logo-551BD51321-seeklogo.com.png" alt="our client">
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="backend.php">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your Email">
+                </div>
+                <div class="form-group">
+                    <label for="number">Phone Number:</label>
+                    <input type="tel" name="number" id="number" placeholder="Enter your Phone Number">
+                </div>
+                <div class="form-group">
+                    <label for="feedback">Feedback:</label>
+                    <textarea name="feedback" id="feedback" cols="30" rows="10"></textarea>
+                </div>
+                <div class="submit">
+                    <input type="submit" value="submit" >
+                </div>
+
+
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="center">
+            Copyright &copy; www.onlinemeal.com .All right reserved!
+        </div>
+    </footer>
+</body>
+</html>
